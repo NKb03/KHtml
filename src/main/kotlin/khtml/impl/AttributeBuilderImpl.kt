@@ -26,7 +26,7 @@ internal class AttributeBuilderImpl(private val out: Appendable) : AttributeBuil
     }
 
     override fun String.minus(value: String) {
-        addAttribute(this, "\"value\"")
+        addAttribute(this, "\"$value\"")
     }
 
     override fun String.minus(value: Pixel) {

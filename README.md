@@ -112,7 +112,3 @@ h(3, "this is a heading")
 //or
 h3("this is a heading")
 ```
-
-
-
-
