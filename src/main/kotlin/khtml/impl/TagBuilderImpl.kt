@@ -14,6 +14,6 @@ internal class TagBuilderImpl(private val out: Appendable) : TagBuilder, Abstrac
     }
 
     override fun content(str: String) {
-        out.appendln(str)
+        out.append(str)
     }
 }
