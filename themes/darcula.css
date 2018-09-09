@@ -36,8 +36,7 @@ span.kbd{
     color: #555;
 }
 
-body.multimarkdown-preview,
-body.multimarkdown-wiki-preview {
+body {
     background-color: #2B2B2B;
     color: #A9B7C6;
 }
